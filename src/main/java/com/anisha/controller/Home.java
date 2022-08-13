@@ -8,7 +8,7 @@ public class Home {
 
     @RequestMapping("/welcome")
     public String welcome(){
-        String text = "This is a private page." ;
+        String text = "This is a private page.\n" ;
         return text;
     }
 
