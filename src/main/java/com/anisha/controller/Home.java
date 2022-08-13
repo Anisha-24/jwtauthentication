@@ -13,7 +13,8 @@ public class Home {
     }
 
     @RequestMapping("/getusers")
-    public String getUser(){
+    public String getUser()
+    {
         return "{\"name\":\"Anisha\"}";
     }
 
